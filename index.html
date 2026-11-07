@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المعرفة | موقع تعليمي ثقافي</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Tahoma,Arial,sans-serif;
+ background:#f5f6f3;
+ color:#25352e;
+ line-height:1.9;
+}
+header{
+ background:#183d32;
+ color:white;
+ padding:22px 15px;
+ text-align:center;
+}
+header h1{font-size:36px;margin:0}
+header p{margin:0;color:#d8e5dc}
+nav{
+ background:#245443;
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap;
+ padding:10px;
+ gap:18px;
+}
+nav a{color:white;text-decoration:none;font-size:14px}
+.hero{
+ background:linear-gradient(135deg,#183d32,#38765b);
+ color:white;
+ text-align:center;
+ padding:65px 20px;
+}
+.hero h2{font-size:29px;margin:0 0 15px}
+.hero p{max-width:600px;margin:auto;color:#e2eee5}
+.section{padding:35px 18px;max-width:1000px;margin:auto}
+.section h2{
+ color:#245443;
+ border-bottom:2px solid #d6b36a;
+ padding-bottom:8px;
+}
+.cards{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:15px;
+}
+.card{
+ background:white;
+ padding:22px;
+ border-radius:12px;
+ box-shadow:0 3px 12px #0000000c;
+ border-top:4px solid #b99a55;
+}
+.card h3{color:#245443;margin-top:0}
+.card p{color:#626d66;font-size:14px}
+.welcome{
+ background:#e8eee8;
+ border-radius:12px;
+ padding:25px;
+}
+footer{
+ background:#183d32;
+ color:white;
+ text-align:center;
+ padding:25px 12px;
+ margin-top:30px;
+}
+footer p{margin:5px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>المعرفة</h1>
+<p>موقع إلكتروني تعليمي ثقافي</p>
+</header>
+
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#about">من نحن</a>
+<a href="#education">التعليم</a>
+<a href="#culture">الثقافة</a>
+<a href="#articles">المقالات</a>
+<a href="#youth">الشباب</a>
+</nav>
+
+<section class="hero" id="home">
+<h2>أهلاً بكم في موقع المعرفة</h2>
+<p>
+مساحة للتعلم والتفكير والحوار الثقافي،
+ومجال لتطوير قدرات الشباب وتعزيز دورهم
+في بناء مجتمع واعٍ ومتماسك.
+</p>
+</section>
+
+<section class="section" id="about">
+<div class="welcome">
+<h2>من نحن؟</h2>
+<p>
+المعرفة مساحة تعليمية وثقافية تهدف إلى نشر الوعي،
+وتشجيع القراءة والتفكير النقدي، ودعم المبادرات
+الشبابية، وفتح المجال أمام تبادل الأفكار والخبرات.
+نؤمن بأن بناء الإنسان هو أساس بناء المجتمع.
+</p>
+</div>
+</section>
+
+<section class="section" id="education">
+<h2>التعليم والتعلّم</h2>
+<div class="cards">
+<div class="card">
+<h3>الدعم التعليمي</h3>
+<p>مواد تعليمية ومساعدة للطلاب في مسيرتهم الدراسية.</p>
+</div>
+<div class="card">
+<h3>تطوير المهارات</h3>
+<p>تعزيز مهارات القراءة والكتابة والبحث والتفكير.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="culture">
+<h2>الثقافة والفكر</h2>
+<div class="cards">
+<div class="card">
+<h3>الوعي الثقافي</h3>
+<p>مساحة للتعرف إلى التاريخ والثقافة والفكر الإنساني.</p>
+</div>
+<div class="card">
+<h3>الحوار والتنوير</h3>
+<p>تشجيع الحوار واحترام الاختلاف وتبادل الآراء.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="articles">
+<h2>المقالات والدراسات</h2>
+<div class="cards">
+<div class="card">
+<h3>مقالات فكرية</h3>
+<p>قراءات ومقالات في قضايا المجتمع والإنسان والثقافة.</p>
+</div>
+<div class="card">
+<h3>أبحاث ودراسات</h3>
+<p>مساحة لنشر الدراسات والتحليلات والمواد المعرفية.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="youth">
+<h2>الشباب والمبادرات</h2>
+<div class="cards">
+<div class="card">
+<h3>تنظيم الشباب</h3>
+<p>تشجيع العمل الجماعي وتبادل الخبرات وبناء فرق شبابية.</p>
+</div>
+<div class="card">
+<h3>المبادرات المجتمعية</h3>
+<p>دعم الأفكار والمشاريع التي تخدم المجتمع وتطوره.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<h3>المعرفة</h3>
+<p>المعرفة طريق الوعي، والثقافة أساس التغيير.</p>
+<p>© جميع الحقوق محفوظة لموقع المعرفة</p>
+</footer>
+
+</body>
+</html>
